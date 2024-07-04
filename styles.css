@@ -1,0 +1,44 @@
+
+.navbar-brand {
+    margin-right: auto; 
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+}
+
+/* Style untuk header kolom */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #7fb6e6 !important; /* Gunakan !important jika diperlukan */
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style untuk sel dalam tabel */
+td {
+    border: 1px solid #121111;
+    padding: 10px;
+}
+
+/* Style untuk baris ganjil (zebra-striping) */
+tbody tr:nth-child(even) {
+    background-color: #5093b3;
+}
+
+/* Hover efek pada baris tabel */
+tbody tr:hover {
+    background-color: #e9ecef;
+}
